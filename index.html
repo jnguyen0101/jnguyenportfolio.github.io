@@ -23,6 +23,7 @@
 
   <body>
     <header id="home">
+     <!-- Navbar -->
       <nav class="navbar navbar-expand-md fixed-top bg-dark" data-bs-theme="dark">
         <div class="container">
           <a href="#home" class="navbar-brand">
@@ -37,7 +38,7 @@
             <div class="navbar-nav ms-auto">
               <a href="#mission-section" class="nav-link">Mission</a>
               <a href="#skills-section" class="nav-link">Skills</a>
-              <a href="#places-section" class="nav-link">Visited Places</a>
+              <a href="#projects-section" class="nav-link">Projects</a>
               <a href="#contact-section" class="nav-link">Contact</a>
             </div>
           </div>
@@ -45,7 +46,8 @@
         </div>
       </nav>
     </header>
-  
+    
+    <!-- Hero section -->
   	<section id="hero-section">
       <div class="info">
         <img id="headshot" src="img/headshot.png" alt="Jenny Nguyen headshot">
@@ -54,6 +56,7 @@
       </div>
   	</section>
     
+    <!-- Mission section -->
     <section id="mission-section">
       <h2>My Mission</h2>
       <div class="row">
@@ -68,7 +71,8 @@
         </div>
       </div>
   	</section>
-  
+        
+    <!-- Skills section -->
     <section id="skills-section">
       <h2>Skills</h2>
       <div class="row">
@@ -99,76 +103,42 @@
       </div>
   	</section>
     
-    <section id="places-section">
-      <h2>Visited Places</h2>
-      <div id="places-carousel" class="carousel slide carousel-fade">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#places-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#places-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#places-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#places-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#places-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          <button type="button" data-bs-target="#places-carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <!-- Projects section -->
+    <section id="projects-section">
+      <h2>Projects</h2>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 git-link">
+            <a href="https://github.com/jnguyen0101/Huffman.git" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 100 125" width="150" height="150" enable-background="new 0 0 100 100" xml:space="preserve"><path d="M90.2,75h-4.6L71.1,60h1.6c2.7,0,4.8-2.2,4.8-4.8V44.8c0-2.7-2.2-4.8-4.8-4.8h-4.6L53.6,25h1.6c2.7,0,4.8-2.2,4.8-4.8V9.8  C60,7.2,57.8,5,55.2,5H44.8C42.2,5,40,7.2,40,9.8v10.4c0,2.7,2.2,4.8,4.8,4.8h1.6L31.9,40h-4.6c-2.7,0-4.8,2.2-4.8,4.8v10.4  c0,2.7,2.2,4.8,4.8,4.8h1.6L14.4,75H9.8C7.2,75,5,77.2,5,79.8v10.4C5,92.8,7.2,95,9.8,95h10.4c2.7,0,4.8-2.2,4.8-4.8V79.8  c0-2.7-2.2-4.8-4.8-4.8h-1.6l13.9-14.3L46.4,75h-1.6c-2.7,0-4.8,2.2-4.8,4.8v10.4c0,2.7,2.2,4.8,4.8,4.8h10.4c2.7,0,4.8-2.2,4.8-4.8  V79.8c0-2.7-2.2-4.8-4.8-4.8h-4.6L36.1,60h1.6c2.7,0,4.8-2.2,4.8-4.8V44.8c0-2.7-2.2-4.8-4.8-4.8h-1.6L50,25.6L63.9,40h-1.6  c-2.7,0-4.8,2.2-4.8,4.8v10.4c0,2.7,2.2,4.8,4.8,4.8h4.6l14.6,15h-1.6c-2.7,0-4.8,2.2-4.8,4.8v10.4c0,2.7,2.2,4.8,4.8,4.8h10.4  c2.7,0,4.8-2.2,4.8-4.8V79.8C95,77.2,92.8,75,90.2,75z M22,79.8v10.4c0,1-0.8,1.8-1.8,1.8H9.8c-1,0-1.8-0.8-1.8-1.8V79.8  c0-1,0.8-1.8,1.8-1.8h10.4C21.2,78,22,78.8,22,79.8z M57,79.8v10.4c0,1-0.8,1.8-1.8,1.8H44.8c-1,0-1.8-0.8-1.8-1.8V79.8  c0-1,0.8-1.8,1.8-1.8h10.4C56.2,78,57,78.8,57,79.8z M39.5,44.8v10.4c0,1-0.8,1.8-1.8,1.8H27.3c-1,0-1.8-0.8-1.8-1.8V44.8  c0-1,0.8-1.8,1.8-1.8h10.4C38.7,43,39.5,43.8,39.5,44.8z M43,20.2V9.8c0-1,0.8-1.8,1.8-1.8h10.4c1,0,1.8,0.8,1.8,1.8v10.4  c0,1-0.8,1.8-1.8,1.8H44.8C43.8,22,43,21.2,43,20.2z M60.5,55.2V44.8c0-1,0.8-1.8,1.8-1.8h10.4c1,0,1.8,0.8,1.8,1.8v10.4  c0,1-0.8,1.8-1.8,1.8H62.3C61.3,57,60.5,56.2,60.5,55.2z M92,90.2c0,1-0.8,1.8-1.8,1.8H79.8c-1,0-1.8-0.8-1.8-1.8V79.8  c0-1,0.8-1.8,1.8-1.8h10.4c1,0,1.8,0.8,1.8,1.8V90.2z"/>
+              </svg>
+            </a>
+            <h3>Huffman Coding | Nov 2024 - Dec 2024<br><small><em>The University of Texas at Austin: C S 314 Data Structures</em></small></h3>
+            <ul>
+              <li>Created a Huffman Coding program in Java that optimizes data storage and retrieval by efficiently assigning codes based on character frequencies and is able to compress and decompress files.</li>
+              <li>Process of compressing includes calculating character frequencies contained in input file, building the corresponding Huffman Tree, and writing to the compressed file.</li>
+              <li>Process of decompressing includes reading the compressed file, rebuilding the corresponding Huffman Tree, and writing to the uncompressed file.</li>
+            </ul>
+          </div>
+        <div class="col-12 col-md-6 col-lg-4 git-link">
+            <a href="https://github.com/jnguyen0101/EvilHangman.git" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 80" width="150" height="150"><g data-name="Layer 27">
+                <path d="M23,51H17V21.41L23.41,15H31v4.14a4,4,0,0,0,0,7.72v.73l-3.71,3.7,1.42,1.42L31,30.41v5.18l-3.71,3.7,1.42,1.42L32,37.41l3.29,3.3,1.42-1.42L33,35.59V30.41l2.29,2.3,1.42-1.42L33,27.59v-.73a4,4,0,0,0,0-7.72V15h9a1,1,0,0,0,1-1V10a1,1,0,0,0-1-1H10a1,1,0,0,0-1,1v4a1,1,0,0,0,1,1h1V51H9v2H23ZM34,23a2,2,0,1,1-2-2A2,2,0,0,1,34,23ZM17,18.59V15h3.59ZM11,11H41v2H11Zm2,4h2V51H13Z"/><rect x="25" y="51" width="6" height="2"/><rect x="33" y="51" width="6" height="2"/><rect x="41" y="51" width="6" height="2"/><path d="M62.71,24.29l-3-3a1,1,0,0,0-1.42,0L55,24.59V2a1,1,0,0,0-1-1H2A1,1,0,0,0,1,2V62a1,1,0,0,0,1,1H54a1,1,0,0,0,1-1V33.41l7.71-7.7A1,1,0,0,0,62.71,24.29ZM49,30.59,37.29,42.29a1.1,1.1,0,0,0-.18.26l-3,6A1,1,0,0,0,35,50a.91.91,0,0,0,.45-.11l6-3a1.1,1.1,0,0,0,.26-.18L49,39.41V57H7V7H49ZM38.27,44.69l1,1-2.07,1Zm2.73-.1L39.41,43,56,26.41,57.59,28ZM53,61H3V3H53V26.59l-2,2V6a1,1,0,0,0-1-1H6A1,1,0,0,0,5,6V58a1,1,0,0,0,1,1H50a1,1,0,0,0,1-1V37.41l2-2Zm6-34.41L57.41,25,59,23.41,60.59,25Z"/></g></svg>
+            </a>
+            <h3>Evil Hangman | Sep 2024 - Oct 2024<br><small><em>The University of Texas at Austin: C S 314 Data Structures</em></small></h3>
+            <ul>
+              <li>Created a twist on the classic Hangman game where the computer keeps changing its word list to avoid revealing the correct letters, making it much harder for the player to guess the word.</li>
+              <li>With each new guess, the program splits the list of words into groups based on where the guessed letter appears, and then it continues by choosing the largest group, effectively avoiding committing to a single word until absolutely necessary.</li>
+              <li>The program includes three difficulty levels, easy, medium, and hard, which vary in alternation between the hardest and second hardest word.</li>
+            </ul>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/honolulu.jpg" class="d-block w-100" alt="A sandy beach in Hawaii">
-            <div class="carousel-caption">
-              <h5>Honolulu, Hawaii</h5>
-              <p>A vibrant, tropical city on the island of Oahu, known for its stunning beaches, rich cultural heritage, and the iconic Diamond Head crater.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/newyork.jpg" class="d-block w-100" alt="A city view in New York">
-            <div class="carousel-caption">
-              <h5>Manhattan, New York</h5>
-              <p>A bustling urban center known for its iconic skyline, world-class theaters, and the dynamic cultural melting pot of neighborhoods.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/stlouis.jpg" class="d-block w-100" alt="A view of a bridge in Missouri">
-            <div class="carousel-caption">
-              <h5>St. Louis, Missouri</h5>
-              <p>A historic and culturally rich city located along the Mississippi River, known for its iconic Gateway Arch and vibrant music scene.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/miami.jpg" class="d-block w-100" alt="A beautiful garden in Florida">
-            <div class="carousel-caption">
-              <h5>Miami, Florida</h5>
-              <p>A lively city known for its stunning beaches, vibrant nightlife, cultural diversity, and the colorful Art Deco architecture of South Beach.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/keystone.jpg" class="d-block w-100" alt="A view of a snowy mountain in Colorado">
-            <div class="carousel-caption">
-              <h5>Keystone, Colorado</h5>
-              <p>A picturesque mountain resort town known for its excellent skiing, snowboarding, and year-round outdoor activities in the scenic Rocky Mountains.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/santamonica.jpg" class="d-block w-100" alt="A pierside view in California">
-            <div class="carousel-caption">
-              <h5>Santa Monica, California</h5>
-              <p>A charming coastal city known for its iconic pier, beautiful beaches, bustling Third Street Promenade, and the relaxed Southern California lifestyle.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#places-carousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#places-carousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </section>
-  
+
+    <!-- Contact section -->
     <section id="contact-section">
-      <h2>Contact</h2>
+     <h2>Contact</h2>
       <div class="row">
-        <div class="col-12 col-md-4 logo">
+        <div class="col-12 col-md-3 logo">
           <a href="https://linkedin.com/in/jenny-nguyen-17045b179" target="_blank">
             <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 50 50">
               <g fill="currentColor">
@@ -177,20 +147,29 @@
             </svg>
           </a>
         </div>
-        <div class="col-12 col-md-4 logo">
+        <div class="col-12 col-md-3 logo">
           <a href="https://github.com/jnguyen0101" target="_blank">
             <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 30 30">
               <g fill="currentColor">
-                <path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"></path>
+                <path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z">   </path>
               </g>
             </svg>
           </a>
         </div>
-        <div class="col-12 col-md-4 logo">
-          <a href="mailto:nguyenjenny01012006@gmail.com">
+        <div class="col-12 col-md-3 logo">
+          <a href="mailto:jtn2497@utexas.edu">
             <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="70" height="70">
               <g fill="currentColor">
                 <path d="M256 352c-16.53 0-33.06-5.422-47.16-16.41L0 173.2V400C0 426.5 21.49 448 48 448h416c26.51 0 48-21.49 48-48V173.2l-208.8 162.5C289.1 346.6 272.5 352 256 352zM16.29 145.3l212.2 165.1c16.19 12.6 38.87 12.6 55.06 0l212.2-165.1C505.1 137.3 512 125 512 112C512 85.49 490.5 64 464 64h-416C21.49 64 0 85.49 0 112C0 125 6.01 137.3 16.29 145.3z"/>
+              </g>
+            </svg>
+          </a>
+        </div>
+        <div class="col-12 col-md-3 logo">
+          <a href="tel:+14698779171">
+            <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="70" height="70">
+              <g fill="currentColor">
+                <path d="M123.28788,96.79737,100.78819,80.34893a6.26082,6.26082,0,0,0-8.08382.58949l-12.02065,11.805-.04092.04092a5.33619,5.33619,0,0,1-7.50362-.08369L52.35966,71.92108,35.2994,54.86081a5.33619,5.33619,0,0,1-.08369-7.50362l.04092-.04092,11.805-12.02065a6.26082,6.26082,0,0,0,.58949-8.08382L31.20263,4.71212a6.26247,6.26247,0,0,0-9.48412-.73271l-8.47993,8.47993q-.80336.80336-1.5342,1.66808C10.14787,15.9666,6.77822,20.09128,5.49694,22.745a34.59493,34.59493,0,0,0,5.73882,38.17081l55.84846,55.84846a34.59493,34.59493,0,0,0,38.17081,5.73882c2.65369-1.28128,6.77836-4.65093,8.61754-6.20744q.86472-.73083,1.66808-1.5342l8.47993-8.47993A6.26247,6.26247,0,0,0,123.28788,96.79737Z"></path>
               </g>
             </svg>
           </a>
@@ -200,7 +179,7 @@
   
     <!-- Footer section -->
     <section id="footer-section">
-      © Jenny Nguyen 2025
+      © 2025 by Jenny Nguyen
     </section>
   
     <script
