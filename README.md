@@ -7,3 +7,5 @@ This project serves as a showcase for my skills, projects, and professional jour
 * **Projects**: Highlights of my work, including links to source code.
 * **Contact**: Easy ways to connect with me, whether through email, phone, or social platforms.
 * **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices.
+
+Link: www.jennynguyen-dev.com
